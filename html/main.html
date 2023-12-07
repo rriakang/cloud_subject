@@ -1,0 +1,75 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+
+        section {
+            padding: 20px;
+        }
+
+        #profileImage {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin-left: 70px;
+            margin-top: 70px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RIRA_PROFILE</h1>
+    </header>
+
+    <nav>
+        <a href="http://localhost:8000/section1">section1</a>
+        <a href="http://localhost:8000/section2">section2</a>
+        <a href="http://localhost:8000/section3">section3</a>
+    </nav>
+    <img id="profileImage" src="profile.jpg" alt="profile Image">
+    <a href="https://github.com/rriakang">
+        <img id="github" src="github.jpg" alt="github">
+    </a>
+    <a href ="https://">
+        <img id="insta" src="" alt="insta">
+</body>
+</html>
