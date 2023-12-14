@@ -1,3 +1,5 @@
+*.css linguist-detectable=false
+*.html linguist-detectable=false
 # cloud_subject
 
 > node.js,docker 
